@@ -169,49 +169,49 @@ public interface TwigsBlockFamilies {
         .slab(TwigsBlocks.POLISHED_CALCITE_BRICK_SLAB)
         .build();
 
-    BlockFamily COPPER = register(Blocks.COPPER_BLOCK)
-        .group("copper")
-        .chiseled(TwigsBlocks.COPPER_PILLAR)
-        .slab(Blocks.CUT_COPPER_SLAB)
-        .build();
-    BlockFamily WAXED_COPPER = register(Blocks.WAXED_COPPER_BLOCK)
-        .group("copper")
-        .chiseled(TwigsBlocks.WAXED_COPPER_PILLAR)
-        .slab(Blocks.WAXED_CUT_COPPER_SLAB)
-        .build();
-
-    BlockFamily EXPOSED_COPPER = register(Blocks.EXPOSED_COPPER)
-        .group("copper")
-        .chiseled(TwigsBlocks.EXPOSED_COPPER_PILLAR)
-        .slab(Blocks.EXPOSED_CUT_COPPER_SLAB)
-        .build();
-    BlockFamily WAXED_EXPOSED_COPPER = register(Blocks.WAXED_EXPOSED_COPPER)
-        .group("copper")
-        .chiseled(TwigsBlocks.WAXED_EXPOSED_COPPER_PILLAR)
-        .slab(Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB)
-        .build();
-
-    BlockFamily WEATHERED_COPPER = register(Blocks.WEATHERED_COPPER)
-        .group("copper")
-        .chiseled(TwigsBlocks.WEATHERED_COPPER_PILLAR)
-        .slab(Blocks.WEATHERED_CUT_COPPER_SLAB)
-        .build();
-    BlockFamily WAXED_WEATHERED_COPPER = register(Blocks.WAXED_WEATHERED_COPPER)
-        .group("copper")
-        .chiseled(TwigsBlocks.WAXED_WEATHERED_COPPER_PILLAR)
-        .slab(Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB)
-        .build();
-
-    BlockFamily OXIDIZED_COPPER = register(Blocks.OXIDIZED_COPPER)
-        .group("copper")
-        .chiseled(TwigsBlocks.OXIDIZED_COPPER_PILLAR)
-        .slab(Blocks.OXIDIZED_CUT_COPPER_SLAB)
-        .build();
-    BlockFamily WAXED_OXIDIZED_COPPER = register(Blocks.WAXED_OXIDIZED_COPPER)
-        .group("copper")
-        .chiseled(TwigsBlocks.WAXED_OXIDIZED_COPPER_PILLAR)
-        .slab(Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB)
-        .build();
+//    BlockFamily COPPER = register(Blocks.COPPER_BLOCK)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.COPPER_PILLAR)
+//        .slab(Blocks.CUT_COPPER_SLAB)
+//        .build();
+//    BlockFamily WAXED_COPPER = register(Blocks.WAXED_COPPER_BLOCK)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.WAXED_COPPER_PILLAR)
+//        .slab(Blocks.WAXED_CUT_COPPER_SLAB)
+//        .build();
+//
+//    BlockFamily EXPOSED_COPPER = register(Blocks.EXPOSED_COPPER)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.EXPOSED_COPPER_PILLAR)
+//        .slab(Blocks.EXPOSED_CUT_COPPER_SLAB)
+//        .build();
+//    BlockFamily WAXED_EXPOSED_COPPER = register(Blocks.WAXED_EXPOSED_COPPER)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.WAXED_EXPOSED_COPPER_PILLAR)
+//        .slab(Blocks.WAXED_EXPOSED_CUT_COPPER_SLAB)
+//        .build();
+//
+//    BlockFamily WEATHERED_COPPER = register(Blocks.WEATHERED_COPPER)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.WEATHERED_COPPER_PILLAR)
+//        .slab(Blocks.WEATHERED_CUT_COPPER_SLAB)
+//        .build();
+//    BlockFamily WAXED_WEATHERED_COPPER = register(Blocks.WAXED_WEATHERED_COPPER)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.WAXED_WEATHERED_COPPER_PILLAR)
+//        .slab(Blocks.WAXED_WEATHERED_CUT_COPPER_SLAB)
+//        .build();
+//
+//    BlockFamily OXIDIZED_COPPER = register(Blocks.OXIDIZED_COPPER)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.OXIDIZED_COPPER_PILLAR)
+//        .slab(Blocks.OXIDIZED_CUT_COPPER_SLAB)
+//        .build();
+//    BlockFamily WAXED_OXIDIZED_COPPER = register(Blocks.WAXED_OXIDIZED_COPPER)
+//        .group("copper")
+//        .chiseled(TwigsBlocks.WAXED_OXIDIZED_COPPER_PILLAR)
+//        .slab(Blocks.WAXED_OXIDIZED_CUT_COPPER_SLAB)
+//        .build();
 
     BlockFamily RHYOLITE = register(TwigsBlocks.RHYOLITE)
         .group("rhyolite")

@@ -217,17 +217,17 @@ public interface TwigsBlocks {
     Block MOSSY_BRICK_SLAB = registerSlab("mossy_brick_slab", MOSSY_BRICKS);
     Block MOSSY_BRICK_WALL = registerWall("mossy_brick_wall", MOSSY_BRICKS);
 
-    /* Copper */
-
-    Block COPPER_PILLAR = registerPillarOxidizable("copper_pillar", CUT_COPPER, Oxidizable.OxidationLevel.UNAFFECTED);
-    Block EXPOSED_COPPER_PILLAR = registerPillarOxidizable("exposed_copper_pillar", EXPOSED_CUT_COPPER, Oxidizable.OxidationLevel.EXPOSED);
-    Block WEATHERED_COPPER_PILLAR = registerPillarOxidizable("weathered_copper_pillar", WEATHERED_CUT_COPPER, Oxidizable.OxidationLevel.WEATHERED);
-    Block OXIDIZED_COPPER_PILLAR = registerPillarOxidizable("oxidized_copper_pillar", OXIDIZED_CUT_COPPER, Oxidizable.OxidationLevel.OXIDIZED);
-
-    Block WAXED_COPPER_PILLAR = registerPillar("waxed_copper_pillar", WAXED_CUT_COPPER);
-    Block WAXED_EXPOSED_COPPER_PILLAR = registerPillar("waxed_exposed_copper_pillar", WAXED_EXPOSED_CUT_COPPER);
-    Block WAXED_WEATHERED_COPPER_PILLAR = registerPillar("waxed_weathered_copper_pillar", WAXED_WEATHERED_CUT_COPPER);
-    Block WAXED_OXIDIZED_COPPER_PILLAR = registerPillar("waxed_oxidized_copper_pillar", WAXED_OXIDIZED_CUT_COPPER);
+//    /* Copper */
+//
+//    Block COPPER_PILLAR = registerPillarOxidizable("copper_pillar", CUT_COPPER, Oxidizable.OxidationLevel.UNAFFECTED);
+//    Block EXPOSED_COPPER_PILLAR = registerPillarOxidizable("exposed_copper_pillar", EXPOSED_CUT_COPPER, Oxidizable.OxidationLevel.EXPOSED);
+//    Block WEATHERED_COPPER_PILLAR = registerPillarOxidizable("weathered_copper_pillar", WEATHERED_CUT_COPPER, Oxidizable.OxidationLevel.WEATHERED);
+//    Block OXIDIZED_COPPER_PILLAR = registerPillarOxidizable("oxidized_copper_pillar", OXIDIZED_CUT_COPPER, Oxidizable.OxidationLevel.OXIDIZED);
+//
+//    Block WAXED_COPPER_PILLAR = registerPillar("waxed_copper_pillar", WAXED_CUT_COPPER);
+//    Block WAXED_EXPOSED_COPPER_PILLAR = registerPillar("waxed_exposed_copper_pillar", WAXED_EXPOSED_CUT_COPPER);
+//    Block WAXED_WEATHERED_COPPER_PILLAR = registerPillar("waxed_weathered_copper_pillar", WAXED_WEATHERED_CUT_COPPER);
+//    Block WAXED_OXIDIZED_COPPER_PILLAR = registerPillar("waxed_oxidized_copper_pillar", WAXED_OXIDIZED_CUT_COPPER);
 
     /* Amethyst */
 

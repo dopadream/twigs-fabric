@@ -198,19 +198,19 @@ public final class TwigsBlocksImpl implements TwigsBlocks, ModInitializer {
 
         /* Copper */
 
-        Util.make(new LinkedHashMap<Block, Block>(), pairs -> {
-            pairs.put(COPPER_PILLAR, WAXED_COPPER_PILLAR);
-            pairs.put(EXPOSED_COPPER_PILLAR, WAXED_EXPOSED_COPPER_PILLAR);
-            pairs.put(WEATHERED_COPPER_PILLAR, WAXED_WEATHERED_COPPER_PILLAR);
-            pairs.put(OXIDIZED_COPPER_PILLAR, WAXED_OXIDIZED_COPPER_PILLAR);
-
-            pairs.forEach(OxidizableBlocksRegistry::registerWaxableBlockPair);
-
-            List<Block> unwaxed = List.copyOf(pairs.keySet());
-            for (int i = 0, l = unwaxed.size(); i < l - 1; i++) {
-                OxidizableBlocksRegistry.registerOxidizableBlockPair(unwaxed.get(i), unwaxed.get(i + 1));
-            }
-        });
+//        Util.make(new LinkedHashMap<Block, Block>(), pairs -> {
+//            pairs.put(COPPER_PILLAR, WAXED_COPPER_PILLAR);
+//            pairs.put(EXPOSED_COPPER_PILLAR, WAXED_EXPOSED_COPPER_PILLAR);
+//            pairs.put(WEATHERED_COPPER_PILLAR, WAXED_WEATHERED_COPPER_PILLAR);
+//            pairs.put(OXIDIZED_COPPER_PILLAR, WAXED_OXIDIZED_COPPER_PILLAR);
+//
+//            pairs.forEach(OxidizableBlocksRegistry::registerWaxableBlockPair);
+//
+//            List<Block> unwaxed = List.copyOf(pairs.keySet());
+//            for (int i = 0, l = unwaxed.size(); i < l - 1; i++) {
+//                OxidizableBlocksRegistry.registerOxidizableBlockPair(unwaxed.get(i), unwaxed.get(i + 1));
+//            }
+//        });
     }
 
     public boolean equals(Identifier id, Block block) {

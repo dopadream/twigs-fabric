@@ -88,18 +88,18 @@ public class ModelProvider extends FabricModelProvider {
             RHYOLITE,
             BUNDLED_BAMBOO,
             STRIPPED_BUNDLED_BAMBOO,
-            POLISHED_BASALT_BRICKS,
-
-            COPPER_PILLAR,
-            EXPOSED_COPPER_PILLAR,
-            WEATHERED_COPPER_PILLAR,
-            OXIDIZED_COPPER_PILLAR
-        );
-
-        this.registerAxisRotatedColumnParented(COPPER_PILLAR, WAXED_COPPER_PILLAR);
-        this.registerAxisRotatedColumnParented(EXPOSED_COPPER_PILLAR, WAXED_EXPOSED_COPPER_PILLAR);
-        this.registerAxisRotatedColumnParented(WEATHERED_COPPER_PILLAR, WAXED_WEATHERED_COPPER_PILLAR);
-        this.registerAxisRotatedColumnParented(OXIDIZED_COPPER_PILLAR, WAXED_OXIDIZED_COPPER_PILLAR);
+            POLISHED_BASALT_BRICKS
+//
+//            COPPER_PILLAR,
+//            EXPOSED_COPPER_PILLAR,
+//            WEATHERED_COPPER_PILLAR,
+//            OXIDIZED_COPPER_PILLAR
+            );
+//
+//        this.registerAxisRotatedColumnParented(COPPER_PILLAR, WAXED_COPPER_PILLAR);
+//        this.registerAxisRotatedColumnParented(EXPOSED_COPPER_PILLAR, WAXED_EXPOSED_COPPER_PILLAR);
+//        this.registerAxisRotatedColumnParented(WEATHERED_COPPER_PILLAR, WAXED_WEATHERED_COPPER_PILLAR);
+//        this.registerAxisRotatedColumnParented(OXIDIZED_COPPER_PILLAR, WAXED_OXIDIZED_COPPER_PILLAR);
 
         // varying floor layers
         uploader.registerVaryingFloorLayers(2,
