@@ -50,17 +50,7 @@ public interface TwigsItems {
     Item STRIPPED_BAMBOO_MAT = register(TwigsBlocks.STRIPPED_BAMBOO_MAT);
     Item STRIPPED_BAMBOO_BOAT = unstackable("stripped_bamboo_boat", settings -> new BoatItem(false, TwigsBoatTypes.STRIPPED_BAMBOO, settings));
     Item STRIPPED_BAMBOO_CHEST_BOAT = unstackable("stripped_bamboo_chest_boat", settings -> new BoatItem(true, TwigsBoatTypes.STRIPPED_BAMBOO, settings));
-    Item STRIPPED_BAMBOO_TABLE = register(TwigsBlocks.STRIPPED_BAMBOO_TABLE);
 
-    Item OAK_TABLE = register(TwigsBlocks.OAK_TABLE);
-    Item SPRUCE_TABLE = register(TwigsBlocks.SPRUCE_TABLE);
-    Item BIRCH_TABLE = register(TwigsBlocks.BIRCH_TABLE);
-    Item JUNGLE_TABLE = register(TwigsBlocks.JUNGLE_TABLE);
-    Item ACACIA_TABLE = register(TwigsBlocks.ACACIA_TABLE);
-    Item DARK_OAK_TABLE = register(TwigsBlocks.DARK_OAK_TABLE);
-    Item MANGROVE_TABLE = register(TwigsBlocks.MANGROVE_TABLE);
-    Item CRIMSON_TABLE = register(TwigsBlocks.CRIMSON_TABLE);
-    Item WARPED_TABLE = register(TwigsBlocks.WARPED_TABLE);
 
     Item LAMP = register(TwigsBlocks.LAMP);
     Item SOUL_LAMP = register(TwigsBlocks.SOUL_LAMP);

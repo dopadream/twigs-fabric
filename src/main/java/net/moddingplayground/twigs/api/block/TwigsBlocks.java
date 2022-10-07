@@ -80,19 +80,6 @@ public interface TwigsBlocks {
     Block STRIPPED_BAMBOO_WALL_SIGN = register("stripped_bamboo_wall_sign", new WallSignBlock(FabricBlockSettings.copyOf(STRIPPED_BAMBOO_SIGN).dropsLike(STRIPPED_BAMBOO_SIGN), TwigsSignTypes.STRIPPED_BAMBOO));
 
     Block STRIPPED_BAMBOO_MAT = register("stripped_bamboo_mat", new BambooMatBlock(FabricBlockSettings.of(Material.WOOD, MapColor.SPRUCE_BROWN).strength(0.1F).sounds(TwigsBlockSoundGroup.STRIPPED_BAMBOO)));
-    Block STRIPPED_BAMBOO_TABLE = registerTable("stripped_bamboo_table", STRIPPED_BAMBOO_PLANKS);
-
-    /* Tables */
-
-    Block OAK_TABLE = registerTable("oak_table", OAK_PLANKS);
-    Block SPRUCE_TABLE = registerTable("spruce_table", SPRUCE_PLANKS);
-    Block BIRCH_TABLE = registerTable("birch_table", BIRCH_PLANKS);
-    Block JUNGLE_TABLE = registerTable("jungle_table", JUNGLE_PLANKS);
-    Block ACACIA_TABLE = registerTable("acacia_table", ACACIA_PLANKS);
-    Block DARK_OAK_TABLE = registerTable("dark_oak_table", DARK_OAK_PLANKS);
-    Block MANGROVE_TABLE = registerTable("mangrove_table", MANGROVE_PLANKS);
-    Block CRIMSON_TABLE = registerTable("crimson_table", CRIMSON_PLANKS);
-    Block WARPED_TABLE = registerTable("warped_table", WARPED_PLANKS);
 
     /* Lamps */
 
@@ -301,10 +288,6 @@ public interface TwigsBlocks {
 
     private static Block registerPaperLantern(String id, Block base) {
         return register(id, new PaperLanternBlock(base, FabricBlockSettings.copyOf(PAPER_LANTERN)));
-    }
-
-    private static Block registerTable(String id, Block base) {
-        return register(id, TableBlock::new, base, FabricBlockSettings::breakInstantly);
     }
 
     private static Block registerShroomlamp(String id) {

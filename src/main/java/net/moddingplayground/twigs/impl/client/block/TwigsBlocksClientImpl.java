@@ -28,17 +28,6 @@ public final class TwigsBlocksClientImpl implements TwigsBlocks, ClientModInitia
 
             BAMBOO_LEAVES,
 
-            OAK_TABLE,
-            SPRUCE_TABLE,
-            BIRCH_TABLE,
-            JUNGLE_TABLE,
-            ACACIA_TABLE,
-            DARK_OAK_TABLE,
-            MANGROVE_TABLE,
-            CRIMSON_TABLE,
-            WARPED_TABLE,
-            STRIPPED_BAMBOO_TABLE,
-
             STRIPPED_BAMBOO_DOOR,
             STRIPPED_BAMBOO_TRAPDOOR
         );

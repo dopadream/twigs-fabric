@@ -142,16 +142,6 @@ public class BlockLootTableProvider extends FabricBlockLootTableProvider {
             STRIPPED_BAMBOO_PRESSURE_PLATE,
             STRIPPED_BAMBOO_STAIRS,
             STRIPPED_BAMBOO_TRAPDOOR,
-            OAK_TABLE,
-            SPRUCE_TABLE,
-            BIRCH_TABLE,
-            JUNGLE_TABLE,
-            ACACIA_TABLE,
-            DARK_OAK_TABLE,
-            MANGROVE_TABLE,
-            CRIMSON_TABLE,
-            WARPED_TABLE,
-            STRIPPED_BAMBOO_TABLE,
             ENDER_MESH
         );
 

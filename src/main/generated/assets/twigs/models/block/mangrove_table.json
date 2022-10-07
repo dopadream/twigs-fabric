@@ -1,8 +1,0 @@
-{
-  "parent": "twigs:block/template_table",
-  "textures": {
-    "bottom": "twigs:block/mangrove_table_bottom",
-    "side": "twigs:block/mangrove_table_side",
-    "top": "twigs:block/mangrove_table_top"
-  }
-}

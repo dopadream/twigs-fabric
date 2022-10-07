@@ -10,7 +10,6 @@
     "twigs:soul_lamp",
     "twigs:crimson_shroomlamp",
     "twigs:warped_shroomlamp",
-    "#twigs:paper_lanterns",
-    "#twigs:tables"
+    "#twigs:paper_lanterns"
   ]
 }

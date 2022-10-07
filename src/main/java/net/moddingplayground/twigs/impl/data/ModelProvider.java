@@ -66,18 +66,7 @@ public class ModelProvider extends FabricModelProvider {
         uploader.registerAxisRotated(TwigsTexturedModels.TEMPLATE_QUAD_POLE, STRIPPED_BAMBOO);
         uploader.registerGeneratedItemModel(STRIPPED_BAMBOO);
 
-        this.registerTable(
-            OAK_TABLE,
-            SPRUCE_TABLE,
-            BIRCH_TABLE,
-            JUNGLE_TABLE,
-            ACACIA_TABLE,
-            DARK_OAK_TABLE,
-            MANGROVE_TABLE,
-            CRIMSON_TABLE,
-            WARPED_TABLE,
-            STRIPPED_BAMBOO_TABLE
-        );
+
 
         this.registerLamp(
             LAMP,
